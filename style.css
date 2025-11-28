@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(40, 39, 39);
+    font-family: 'Trebuchet MS';
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: left;
+    color:rgb(219, 121, 9);
+}
+
+label {
+    font-family: 'Trebuchet MS';
+    color: white; 
+}
+
+main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.2);
+    overflow: hidden
+}
+
+section {
+    flex: 0.90;
+    min-width: 300px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside {
+    flex: 1;
+    min-width: 300px;
+    background-color: rgb(27, 26, 26);
+
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+.infos {
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+
+    font-family: 'Trebuchet MS';
+    color: rgb(73, 73, 73);
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px; 
+}
+
+.linha {
+    display: flex;
+    gap: 30px;
+    padding: 12px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+
+    width: 71%;
+    height: 130px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+    display: column;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(9, 62, 124);
+    color: white;
+    font-size: 15px;
+    outline: none;
+    font-family: 'Trebuchet MS' 
+
+}
+
+button {
+    width: 71%;
+    height: 30px;
+    background: rgb(219, 121, 9); 
+    border: none;
+
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+a {
+    color: rgb(27, 119, 224);
+    text-decoration-line: none;
+}
+
+.texto {
+    margin-top: 100px;
+}
